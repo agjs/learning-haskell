@@ -16,4 +16,12 @@
 
 
 #### Documentation
+* http://stackoverflow.com/questions/1012573/getting-started-with-haskell - Most of the links below are extracted from this one
+* http://stackoverflow.com/questions/16918/beginners-guide-to-haskell
+* http://learnyouahaskell.com/chapters
+* https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
 * https://www.haskell.org/hoogle/?hoogle=maximum
+* https://projecteuler.net/index.php?section=problems
+* http://book.realworldhaskell.org/read/
+* http://book.realworldhaskell.org/
+* http://blog.tmorris.net/posts/20-intermediate-haskell-exercises/
