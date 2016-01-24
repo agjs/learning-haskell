@@ -9,5 +9,11 @@
 * :set prompt "ghci >"
 * :l learn-haskell.hs
 
-#### Search
+
+#### Atom
+* https://atom.io/packages/language-haskell
+* https://atom.io/packages/ide-haskell
+
+
+#### Documentation
 * https://www.haskell.org/hoogle/?hoogle=maximum

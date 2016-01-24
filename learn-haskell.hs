@@ -96,3 +96,31 @@ listProduct = product list1
 
 
 listElem = 4  `elem` list1
+
+-- Ranges - To make a list containing all the natural numbers from 1 to 20, you can just type [1..20].
+
+listRangeNumbers = [1..20];
+listRangeAlphabet = ['a'..'z']
+
+-- We can also specify a step between items in the range. What if we want a list of every even number between 1 and 20 ? Or every third number between 1 and 20 ? Its simply a matter of separating the first two elements with a comma and specifying the upper limit:
+
+-- https://wiki.haskell.org/List_comprehension
+
+listRangeStep = [2,4..20]
+
+-- List Comprehension
+
+listComprehension = [x * 2 | x <- [1..10]]
+
+-- Example with a predicate. Predicates go at the end of the list comprehension and are separated from the rest of the comprehension by a comma. Lets say we want only the elements which, after being doubled, are greater than or equal to 12:
+
+listComprehensionPredicate = [x * 2 | x <- [1..10], x * 2 >= 12]
+
+-- What if we want all numbers from 50 to 100 whose reminder when divided by 7 is 3 ?
+
+listComprehensionPredicateRemainder = [x | x <- [50..100], x  `mod` 7 == 3]
+
+
+-- Now for another example. Let's say we want a comprehension that replaces every odd number greater than 10 with "BANG!", and every odd number less then 10 with "BOOM!". If a number isn't odd, we throw it out of our list. For convinience, we ll put that comprehension inside a function so we can easily reuse it:
+
+boomBangs xs = [if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
