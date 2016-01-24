@@ -8,7 +8,9 @@
 * Download - https://www.haskell.org/platform/
 * :set prompt "ghci >"
 * :l learn-haskell.hs
-
+* :! run the shell command
+* :! cls under windows
+* :! clear under linux and OS X
 
 #### Atom
 * https://atom.io/packages/language-haskell
@@ -25,3 +27,4 @@
 * http://book.realworldhaskell.org/read/
 * http://book.realworldhaskell.org/
 * http://blog.tmorris.net/posts/20-intermediate-haskell-exercises/
+* https://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals/Lecture-Series-Erik-Meijer-Functional-Programming-Fundamentals-Chapter-1 - Video
