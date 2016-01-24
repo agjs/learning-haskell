@@ -55,3 +55,44 @@ listTail = tail list1
 -- The last function returns a list's last element
 
 listLastElement = last list1
+
+-- When using head, tail, last and init, be careful not to use them on empty lists. This error cannot be caught at compile time,
+-- so it's always good practise to take precautions against accidentally telling Haskell to give you elements from an empty list
+
+-- The length function takes a list and returns its length
+
+listLength = length list1
+
+-- The null function checks if a list is empty. If it is, it returns True, otherwise it returns false
+
+listNotNull = null list1
+listNull = null []
+
+-- The reverse function reverses a list
+
+listReverse = reverse list1
+
+-- The take function takes a number and a list. It extracts the specified number elements from the beginning of the list, like this
+
+listTake = take 2 list1
+
+-- If we try to take more elements than there are in the list, Haskell just returns the entire list. If we take 0 elements, we get an empty list
+
+-- The drop function works in a similar way, only it drops (at most) the specified number of elements from the beginning of a list
+
+listDrop = drop 2 list1
+
+-- The maximum function takes a list of items that can be put in some kind of order and returns the largest element. The minimum function is similar but it returns the smallest items
+
+listMaximum = maximum list1
+listMinimum = minimum list1
+
+-- The sum function takes a list of numbers and returns their sum. The product function takes a list of numbers and returns their product
+
+listSum2 = sum list1
+listProduct = product list1
+
+-- The elem function takes an item and a list of items and tells us if that item is an element of the list. It's usually called as an infix function because it's easier to read that way.
+
+
+listElem = 4  `elem` list1

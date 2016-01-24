@@ -8,3 +8,6 @@
 * Download - https://www.haskell.org/platform/
 * :set prompt "ghci >"
 * :l learn-haskell.hs
+
+#### Search
+* https://www.haskell.org/hoogle/?hoogle=maximum
