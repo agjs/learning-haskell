@@ -32,3 +32,26 @@ woot = ['w', 'o'] ++ ['o', 't']
 -- Add an element to the beginning of a list
 consOperator = 'A': " SMALL CAT"
 consOperator2 =  5:[1,2,3,4,5] -- [5,1,2,3,4,5]
+
+-- Accesing List elements
+-- If you want to get an element of a list by index, use !! operator.
+-- As with most programming languages, the indices start at 0
+
+name = "Aleksandar" !! 3
+
+-- Comparing lists
+
+compareLists = list1 > list2
+
+-- Some basic list functions
+-- The head function takes a list and returns its head (the first element)
+
+listHead = head list1
+
+-- The tail function takes a list and returns its tail. In other words, its chops off a list's head
+
+listTail = tail list1
+
+-- The last function returns a list's last element
+
+listLastElement = last list1
