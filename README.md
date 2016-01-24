@@ -5,6 +5,6 @@
 
 
 #### Platform & GHCI
-* https://www.haskell.org/platform/
+* Download - https://www.haskell.org/platform/
 * :set prompt "ghci >"
-* To load a file in ghci (prompt), :l filename.hs
+* :l learn-haskell.hs
